@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-19 12:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin.py:18 admin.py:34 models.py:54 models.py:175
+msgid "Title"
+msgstr "عنوان"
+
+#: admin.py:30 models.py:184
+msgid "Is published"
+msgstr "منتشر شده"
+
+#: admin.py:38 models.py:61 models.py:209
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: cms_apps.py:9
+msgid "Multilingual News Apphook"
+msgstr ""
+
+#: cms_plugins.py:13
+msgid "Recent News"
+msgstr "جدیدترین اخبار"
+
+#: feeds.py:42 feeds.py:54
+#, python-brace-format
+msgid "{0} blog entries"
+msgstr "{0} نوشته بلاگ"
+
+#: feeds.py:43 feeds.py:55
+#, python-brace-format
+msgid "{0} blog entries in {1}"
+msgstr "{0} نوشته بلاگ در {1}"
+
+#: feeds.py:86 feeds.py:100 feeds.py:125 feeds.py:138
+#, python-brace-format
+msgid "{0} by {1}"
+msgstr "{0} از {1}"
+
+#: models.py:37 models.py:180
+msgid "Slug"
+msgstr "مسیر"
+
+#: models.py:42
+msgid "Parent"
+msgstr "والد"
+
+#: models.py:48
+msgid "Hide on list view"
+msgstr "عدم نمایش در لیست"
+
+#: models.py:60 models.py:88
+msgid "Category"
+msgstr "دسته بندی"
+
+#: models.py:93
+msgid "Template Argument"
+msgstr "آرگومان الگو"
+
+#: models.py:168
+msgid "Left"
+msgstr "چپ"
+
+#: models.py:169
+msgid "Right"
+msgstr "راست"
+
+#: models.py:188
+msgid "Meta title"
+msgstr "عنوان متا"
+
+#: models.py:189
+msgid "Best to keep this below 70 characters"
+msgstr "بهتر است کمتر از 70 کاراکتر باشد"
+
+#: models.py:194
+msgid "Meta description"
+msgstr "توضیح متا"
+
+#: models.py:195
+msgid "Best to keep this below 160 characters"
+msgstr "بهتر است کمتر از 160 کاراکتر باشد"
+
+#: models.py:203
+msgid "Author"
+msgstr "نویسنده"
+
+#: models.py:214
+msgid "Publication date"
+msgstr "تاریخ انتشار"
+
+#: models.py:219
+msgid "Image"
+msgstr "تصویر"
+
+#: models.py:225
+msgid "Image float"
+msgstr "تصویر شناور"
+
+#: models.py:231
+msgid "Image width"
+msgstr "عرض تصویر"
+
+#: models.py:236
+msgid "Image height"
+msgstr "ارتفاع تصویر"
+
+#: models.py:242
+msgid "Image source URL"
+msgstr "آدرس منبع تصویر"
+
+#: models.py:248
+msgid "Image source text"
+msgstr "متن منبع تصویر"
+
+#: models.py:253
+msgid "Thumbnail"
+msgstr "تصویر کوچک"
+
+#: models.py:277
+msgid "News Entry"
+msgstr "خبر"
+
+#: models.py:278
+msgid "News Entries"
+msgstr "اخبار"
+
+#: models.py:352
+msgid "Maximum news amount"
+msgstr "حداکثر تعداد اخبار"
+
+#: models.py:355
+msgid "Only show entries for the selected language"
+msgstr "فقط نمایش اخبار برای زبان انتخاب شده"
+
+#: templates/multilingual_news/newsentry_list.html:5
+msgid "Blog"
+msgstr "بلاگ"
+
+#: templates/multilingual_news/newsentry_list.html:7
+msgid "Add entry"
+msgstr "افزودن"
+
+#: templates/multilingual_news/newsentry_list.html:16
+msgid "previous"
+msgstr "قبلی"
+
+#: templates/multilingual_news/newsentry_list.html:18
+#, python-format
+msgid "Page %(number)s of %(num_pages)s"
+msgstr "صفحه %(number)s از %(num_pages)s"
+
+#: templates/multilingual_news/newsentry_list.html:20
+msgid "next"
+msgstr "بعدی"
+
+#: templates/multilingual_news/partials/entry.html:15
+msgid "By"
+msgstr "با"
+
+#: templates/multilingual_news/partials/entry.html:52
+msgid "Back to article list"
+msgstr "بازگشت به لیست اخبار"
+
+#: templates/multilingual_news/partials/entry.html:59
+msgid "Unpublish entry"
+msgstr "لغو انتشار خبر"
+
+#: templates/multilingual_news/partials/entry.html:59
+msgid "Publish entry"
+msgstr "انتشار خبر"
+
+#: templates/multilingual_news/partials/entry.html:61
+msgid "Preview entry"
+msgstr "پیش نمایش"
+
+#: templates/multilingual_news/partials/entry.html:62
+msgid "Delete entry"
+msgstr "حذف"
+
+#: templates/multilingual_news/partials/newsentry_delete.html:2
+msgid "Are you sure, you want to delete the entry?"
+msgstr "آیا می خواهید این مورد را حذف کنید؟"
+
+#: templates/multilingual_news/partials/newsentry_delete.html:7
+msgid "Delete"
+msgstr "حذف"
+
+#: templates/multilingual_news/partials/newsentry_delete.html:8
+msgid "Cancel"
+msgstr "لغو"
+
+#: templates/multilingual_news/partials/published_badge.html:3
+msgid "Unpublished"
+msgstr "منتشر نشده"
